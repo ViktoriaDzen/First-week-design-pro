@@ -22,7 +22,29 @@ h2 {
 .personal-information {
   display: flex;
   justify-content: center;
+  margin-top: 8%;
 }
 .name {
   font-size: 64px;
+}
+
+.contact-button {
+  background-color: #6c63ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-button {
+  background-color: white;
+  border: 1px #6c63ff solid;
+  color: #6c63ff;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
 }
