@@ -1,0 +1,28 @@
+button {
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  margin-top: 8%;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+span {
+  font-size: 22px;
+  font-style: inherit;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.personal-information {
+  display: flex;
+  justify-content: center;
+}
+.name {
+  font-size: 64px;
+}
