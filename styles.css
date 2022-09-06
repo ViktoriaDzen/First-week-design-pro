@@ -18,11 +18,20 @@ h2 {
   text-align: center;
   opacity: 0.7;
 }
+h3 {
+  font-size: 48px;
+  text-align: left;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
 
 .personal-information {
   display: flex;
   justify-content: center;
-  margin-top: 8%;
+  margin-top: 20px;
 }
 .name {
   font-size: 64px;
@@ -47,4 +56,23 @@ h2 {
   text-align: center;
   font-size: 16px;
   border-radius: 12px;
+}
+.mt-5 {
+  margin-top: 3rem !important;
+}
+.primary-link {
+  text-decoration: none;
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 20px 15px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 25px auto;
+  text-align: left;
+}
+.fixed-left {
+  display: block;
+  text-align: left;
 }
