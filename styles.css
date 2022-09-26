@@ -1,6 +1,9 @@
 button {
   margin: 20px;
 }
+body {
+  margin: 200px 0;
+}
 h1 {
   text-align: center;
   margin-top: 8%;
