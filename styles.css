@@ -76,3 +76,35 @@ p {
   display: block;
   text-align: left;
 }
+
+@media (max-width: 600px) {
+  .salutations {
+    margin: 230px;
+    z-index: 1;
+  }
+  body {
+    margin-bottom: 100px;
+  }
+  nav {
+    position: fixed;
+  }
+  h1 {
+    font-size: 20px;
+    z-index: 1;
+    margin-top: 150px;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .personal-information {
+    margin: 16px 26px;
+  }
+  button {
+    padding: 6px 10px;
+  }
+}
